@@ -7,7 +7,7 @@ The application retrieves relevant text from the uploaded PDF and uses a locally
 ## Application Screenshots
 
 ### Question and Answer — Screenshot 1
-[AI PDF Reader - Question Answer1](screenshots/Q&A1.png)
+![AI PDF Reader - Question Answer1](screenshots/Q&A1.png)
 
 ### Question and Answer — Screenshot 2
 ![AI PDF Reader- Question Answer2](screenshots/Q&A2.png)
