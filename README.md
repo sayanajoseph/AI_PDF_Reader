@@ -64,8 +64,6 @@ AI_PDF_Reader/
 
 ## Requirements
 
-Before running the application, install or prepare:
-
 - Python 3.11
 - Ollama
 - The Qwen 2.5 1.5B model
@@ -82,18 +80,12 @@ https://ollama.com/
 
 ### 2. Download the Required Models
 
-Open a terminal and run:
-
 ```bash
 ollama pull qwen2.5:1.5b
 ollama pull nomic-embed-text
 ```
 
-Make sure Ollama is running before starting the application.
-
 ### 3. Clone the Repository
-
-Replace the URL below with your GitHub repository URL.
 
 ```bash
 git clone https://github.com/sayanajoseph/AI_PDF_Reader.git
@@ -101,10 +93,6 @@ cd AI_PDF_Reader
 ```
 
 ### 4. Install Python Dependencies
-
-Install the dependencies defined in the project's `pyproject.toml` file into your chosen Python environment.
-
-For example, using pip:
 
 ```bash
 python -m pip install streamlit pypdf langchain-core langchain-text-splitters langchain-ollama langchain-chroma chromadb
@@ -117,8 +105,6 @@ From the project directory, run:
 ```bash
 python -m streamlit run app.py
 ```
-
-Streamlit will provide a local URL, usually:
 
 ```text
 http://localhost:8501
